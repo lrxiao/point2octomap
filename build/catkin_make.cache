@@ -1,0 +1,2 @@
+odom_tf_package
+-DCATKIN_DEVEL_PREFIX=/home/user/Data/lrx_work/point-cloud/devel -DCMAKE_INSTALL_PREFIX=/home/user/Data/lrx_work/point-cloud/install -G Unix Makefiles
