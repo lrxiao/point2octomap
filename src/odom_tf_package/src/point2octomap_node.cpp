@@ -38,7 +38,7 @@ void call_back(const sensor_msgs::PointCloud2ConstPtr& input)
   
   pub.publish(octomap_msg);
 
-    
+  
  
 
 };
@@ -49,7 +49,7 @@ int main(int argc,char** argv)
   ros::init (argc, argv, "point2oct");
   ros::NodeHandle nh;
   
-  pub = nh.advertise<octomap_msgs::Octomap>("ooctomap",1);
+  pub = nh.advertise<octomap_msgs::Octomap>("octomap",1);
   sub = nh.subscribe("cloud",1,call_back);
   ros::spin ();
   return 0;
