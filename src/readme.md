@@ -38,5 +38,7 @@ rosrun odom_tf_package point_trans_node /home/user/Data/lrx_work/free-space/data
 
 roslaunch transport.launch可以将输入但image_raw_compressed文件转为image_raw文件
 
-
+## publish_point 使用
+目的：将.pcd文件转为ros点云消息并发布出来
+rosrun publish_point creat_point_node
 
