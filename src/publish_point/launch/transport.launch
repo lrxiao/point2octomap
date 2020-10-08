@@ -1,0 +1,7 @@
+<launch>
+	<!-- convert image format from compressed to raw -->
+    		<node pkg="image_transport" type="republish" name="convert_image_format_node"
+         		args="compressed in:=/camera_array/cam0/image_raw raw out:=/camera_array/cam0/image_raw">
+    		</node>
+		
+</launch>
